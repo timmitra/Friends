@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2A16EF512BDAB5A400F5DDEE /* FriendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF502BDAB5A400F5DDEE /* FriendsApp.swift */; };
-		2A16EF532BDAB5A400F5DDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF522BDAB5A400F5DDEE /* ContentView.swift */; };
+		2A16EF532BDAB5A400F5DDEE /* MockData_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF522BDAB5A400F5DDEE /* MockData_Intro.swift */; };
 		2A16EF552BDAB5A500F5DDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A16EF542BDAB5A500F5DDEE /* Assets.xcassets */; };
 		2A16EF582BDAB5A500F5DDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A16EF572BDAB5A500F5DDEE /* Preview Assets.xcassets */; };
+		2A16EF5F2BDAB5CD00F5DDEE /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF5E2BDAB5CD00F5DDEE /* FriendModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A16EF4D2BDAB5A400F5DDEE /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A16EF502BDAB5A400F5DDEE /* FriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsApp.swift; sourceTree = "<group>"; };
-		2A16EF522BDAB5A400F5DDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A16EF522BDAB5A400F5DDEE /* MockData_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData_Intro.swift; sourceTree = "<group>"; };
 		2A16EF542BDAB5A500F5DDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A16EF572BDAB5A500F5DDEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A16EF5E2BDAB5CD00F5DDEE /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				2A16EF502BDAB5A400F5DDEE /* FriendsApp.swift */,
-				2A16EF522BDAB5A400F5DDEE /* ContentView.swift */,
+				2A16EF522BDAB5A400F5DDEE /* MockData_Intro.swift */,
 				2A16EF542BDAB5A500F5DDEE /* Assets.xcassets */,
 				2A16EF562BDAB5A500F5DDEE /* Preview Content */,
+				2A16EF5E2BDAB5CD00F5DDEE /* FriendModel.swift */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A16EF532BDAB5A400F5DDEE /* ContentView.swift in Sources */,
+				2A16EF532BDAB5A400F5DDEE /* MockData_Intro.swift in Sources */,
+				2A16EF5F2BDAB5CD00F5DDEE /* FriendModel.swift in Sources */,
 				2A16EF512BDAB5A400F5DDEE /* FriendsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
