@@ -33,3 +33,9 @@ extension FriendModel {
     return container
   }
 }
+
+extension FriendModel {
+  var viewName: PersonNameComponents {
+    PersonNameComponents(givenName: firstName, familyName: lastName)
+  }
+}

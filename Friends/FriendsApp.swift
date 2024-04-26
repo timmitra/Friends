@@ -14,6 +14,6 @@ struct FriendsApp: App {
         WindowGroup {
             MockData_Intro()
         }
-        .modelContainer(for: FriendModel.self)
+        .modelContainer(FriendModel.preview)
     }
 }
